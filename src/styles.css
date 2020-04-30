@@ -6,16 +6,30 @@
 
 body {
   font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
 }
 
 div {
-  width: 100%;
+  max-width: 440px;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 div li {
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  padding: 15px;
+  border: 1px solid #ebebeb;
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1);
+
 }
 
 div li + li {
